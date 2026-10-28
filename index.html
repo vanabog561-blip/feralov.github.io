@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170e19">
+  <meta name="description" content="Наша маленькая вселенная. Для моей ma belle ❤️">
+  <title>ma belle — наша маленькая вселенная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="top-progress" id="topProgress"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="В начало">
+      <span class="brand-moon">☾</span><span>ma belle</span><i>♥</i>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#story">история</a>
+      <a href="#little-things">наши словечки</a>
+      <a href="#gallery">моменты</a>
+      <a href="#letter">письмо</a>
+    </nav>
+    <button class="sound-toggle" id="soundToggle" title="Включить или выключить звуковой эффект">♫ <span>звук: выкл.</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="overline"><span class="pulse-dot"></span> ЛИЧНОЕ. НАШЕ. НАВСЕГДА В ЭТОМ МОМЕНТЕ.</div>
+        <h1>Эй, красавица,<br><em>да-да, ты.</em></h1>
+        <p class="hero-sub">Я тут кое-что сделал. Не потому что умею красиво говорить, а потому что ты у меня есть — и это уже причина сделать что-то особенное.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#story">ну иди сюда <span>↘</span></a>
+          <button class="button button-quiet" id="sprinkleButton">нажми, если скучаешь <span>♡</span></button>
+        </div>
+        <div class="hero-footnote"><span>для моей кисы</span><span class="tiny-line"></span><span>с любовью, Вань</span></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
+        <div class="moon-card">
+          <div class="moon-glow"></div>
+          <div class="moon">☾</div>
+          <div class="moon-caption"><span>МОЯ ЛЮБИМАЯ</span><strong>ma belle <i>♥</i></strong><small>ты даже не представляешь...</small></div>
+        </div>
+        <span class="float-note note-one">мяу ♡</span>
+        <span class="float-note note-two">жаным</span>
+        <span class="float-note note-three">киса моя</span>
+        <div class="orbit-heart">♥</div>
+      </div>
+      <a class="scroll-cue" href="#story"><span></span> листай, там всё для тебя</a>
+    </section>
+
+    <section class="intro section" id="story">
+      <div class="section-kicker reveal">01 / С ЧЕГО ВСЁ НАЧАЛОСЬ</div>
+      <div class="intro-grid">
+        <div class="intro-heading reveal">
+          <h2>Сначала было<br><em>«Фера брат».</em></h2>
+          <p>А потом как-то незаметно появились свои слова, свои приколы, свои «добли утло», скучания, обнимашки и это чувство, когда один человек становится самым родным.</p>
+        </div>
+        <div class="quote-panel reveal">
+          <span class="quote-mark">“</span>
+          <blockquote>я выбрала тебя потому что я полюбила твое умение любить, твой вкусный голос, как ты обнимаешь и целуешь, я просто таааю...</blockquote>
+          <div class="quote-source"><span class="source-heart">♥</span><span>30.10.2025</span><span class="source-line"></span><span>твои слова</span></div>
+        </div>
+      </div>
+      <div class="stats-row reveal">
+        <div class="stat"><strong>♡</strong><span>ты — мой любимый человек</span></div>
+        <div class="stat"><strong>∞</strong><span>причин обнять тебя</span></div>
+        <div class="stat"><strong>мяу</strong><span>слово, которое всё объясняет</span></div>
+      </div>
+    </section>
+
+    <section class="timeline-section section" id="timeline">
+      <div class="section-kicker reveal">02 / НЕБОЛЬШАЯ ХРОНИКА НАС</div>
+      <div class="section-title reveal"><h2>Моменты, которые<br><em>хочется сохранить.</em></h2><p>Не идеальная история из кино. Наша. Со своими словечками, нежностью и настоящими чувствами.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">11.09.2025 <span>первые сообщения</span></div>
+          <div class="timeline-dot">♡</div>
+          <div class="timeline-card"><span class="timeline-tag">САМОЕ НАЧАЛО</span><h3>«Руся мой»</h3><p>И почти сразу — «давай он наш?». А дальше «всё, тигрица» и ответное «мяу». У нас даже начало было со своим языком.</p><div class="tiny-chips"><span>Руся мой</span><span>тигрица</span><span>мяу</span></div></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">30.10.2025 <span>слова, которые запомнились</span></div>
+          <div class="timeline-dot">♥</div>
+          <div class="timeline-card"><span class="timeline-tag">ТВОЁ ПРИЗНАНИЕ</span><h3>Ты выбрала меня настоящим</h3><p>Ты написала, что рядом со мной тебе максимально комфортно, что ты чувствуешь себя там, где и должна быть. Что можешь быть собой. Я хочу, чтобы ты всегда так себя чувствовала.</p><div class="tiny-chips"><span>комфорт</span><span>нежность</span><span>быть собой</span></div></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">09.01.2026 <span>ночь откровений</span></div>
+          <div class="timeline-dot">♡</div>
+          <div class="timeline-card"><span class="timeline-tag">МОИ СЛОВА</span><h3>«Киса моя, я тобой дорожу»</h3><p>Я писал, что хочу горы свернуть ради тебя, что люблю даже твои маленькие косяки и умиляюсь тобой. И что утреннее «добли утло❤️» уже стало чем-то родным.</p><div class="tiny-chips"><span>киса моя</span><span>зайчик</span><span>добли утло❤️</span></div></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">12.01.2026 <span>маленькие вещи</span></div>
+          <div class="timeline-dot">♥</div>
+          <div class="timeline-card"><span class="timeline-tag">ТВОЯ ЗАБОТА</span><h3>Спасибо за сегодняшний день</h3><p>Ты поблагодарила меня за то, что покормил тебя, купил чехольчик и просто провёл с тобой время. Я запомнил это: дело не в масштабе подарка, а в том, что мы рядом.</p><div class="tiny-chips"><span>время вместе</span><span>забота</span><span>🥹❤️</span></div></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">25.09.2026 <span>письмо от сердца</span></div>
+          <div class="timeline-dot">♡</div>
+          <div class="timeline-card"><span class="timeline-tag">ТВОИ СЛОВА</span><h3>«Солнышко моё, любовь моя, жаным…»</h3><p>Ты написала, как скучаешь по моему голосу, улыбке и смеху, и что хочешь быть рядом, поддерживать и обнимать. Я хочу отвечать тебе тем же — не только словами, но и поступками.</p><div class="tiny-chips"><span>солнышко</span><span>жаным</span><span>рядом</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="words-section section" id="little-things">
+      <div class="section-kicker reveal">03 / НАШ МАЛЕНЬКИЙ СЛОВАРЬ</div>
+      <div class="section-title reveal"><h2>Другие поймут не всё.<br><em>А нам и не надо.</em></h2><p>Нажми на карточки. У каждой — своё настроение.</p></div>
+      <div class="word-grid">
+        <button class="word-card reveal" data-word="мяу" data-note="Когда обычных слов уже достаточно, чтобы понять друг друга. Мяу, киса моя."><span class="word-icon">☾</span><strong>мяу</strong><small>наш универсальный ответ</small><i>нажми ♡</i></button>
+        <button class="word-card reveal" data-word="добли утло❤️" data-note="Самое милое утреннее сообщение. Иногда одно кривенькое «добли утло» лучше тысячи идеальных фраз."><span class="word-icon">☀</span><strong>добли утло❤️</strong><small>доброе утро по-нашему</small><i>нажми ♡</i></button>
+        <button class="word-card reveal" data-word="тигрица" data-note="Та самая тигрица, которой можно сказать «всё, тигрица» — и получить в ответ мяу."><span class="word-icon">✦</span><strong>тигрица моя</strong><small>грозная только на словах</small><i>нажми ♡</i></button>
+        <button class="word-card reveal" data-word="киса моя" data-note="Моя любимая киса. Та, которую хочется обнять, слушать, смешить и беречь."><span class="word-icon">♡</span><strong>киса моя</strong><small>всё понятно без объяснений</small><i>нажми ♡</i></button>
+        <button class="word-card reveal" data-word="жаным" data-note="Слово, в котором очень много нежности. Жаным, солнышко моё."><span class="word-icon">✧</span><strong>жаным</strong><small>нежность в одном слове</small><i>нажми ♡</i></button>
+        <button class="word-card reveal" data-word="обнимашки" data-note="Когда хочется не решать весь мир, а просто прижать тебя к себе и никуда не спешить."><span class="word-icon">∞</span><strong>обнимашки</strong><small>лучшее место — рядом</small><i>нажми ♡</i></button>
+      </div>
+      <div class="word-reveal" id="wordReveal" aria-live="polite"><span>♡</span><p>Выбери наше словечко</p></div>
+    </section>
+
+    <section class="gallery-section section" id="gallery">
+  <div class="section-kicker reveal">04 / НАШИ ФОТОГРАФИИ</div>
+
+  <div class="section-title reveal">
+    <h2>Вот тут будут<br><em>наши моменты.</em></h2>
+    <p>Самые тёплые воспоминания, которые хочется сохранить навсегда.</p>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item tile-large reveal">
+      <div class="gallery-tile">
+        <img src="./pho/photo1.jpg" alt="Наш любимый момент">
+      </div>
+      <p class="gallery-caption">тот самый момент ♡</p>
+    </div>
+
+    <div class="gallery-item reveal">
+      <div class="gallery-tile">
+        <img src="./pho/photo2.jpg" alt="Твоя улыбка">
+      </div>
+      <p class="gallery-caption">твоя улыбка ♡</p>
+    </div>
+
+    <div class="gallery-item reveal">
+      <div class="gallery-tile">
+        <img src="./pho/photo3.jpg" alt="Мы вместе">
+      </div>
+      <p class="gallery-caption">рядом с тобой ♡</p>
+    </div>
+
+    <div class="gallery-item reveal">
+      <div class="gallery-tile">
+        <img src="./pho/photo4.jpg" alt="Маленькое счастье">
+      </div>
+      <p class="gallery-caption">это наше ♡</p>
+    </div>
+
+    <div class="gallery-item reveal">
+      <div class="gallery-tile">
+        <img src="./pho/photo5.jpg" alt="Ещё один день вместе">
+      </div>
+      <p class="gallery-caption">и ещё воспоминание ♡</p>
+    </div>
+  </div>
+
+  <p class="gallery-tip">Каждая фотография — маленькая история о нас ♡</p>
+</section>
+
+    <section class="letter-section section" id="letter">
+      <div class="section-kicker reveal">05 / ПИСЬМО, КОТОРОЕ Я ХОЧУ ТЕБЕ ОСТАВИТЬ</div>
+      <div class="letter-layout">
+        <div class="letter-side reveal"><span class="letter-stamp">для<br>моей<br>кисы <i>♥</i></span><p>прочитай, когда захочешь немного тепла</p><span class="letter-side-date">твой Вань ♡</span></div>
+        <article class="letter-paper reveal">
+          <div class="paper-top"><span>ma belle</span><span>♡</span></div>
+          <h2>Солнышко моё, <em>любовь моя...</em></h2>
+          <p>Ну что я тебе могу сказать, а? Я иногда вообще не умею нормально объяснить, насколько сильно тебя люблю. Просто ты у меня такая родная, такая моя, что хочется забрать тебя в обнимку и сидеть так, чтобы никуда не торопиться.</p>
+          <p>Я люблю твой голос, твой смех, твоё «мяу», наши приколы и даже то, как мы можем с одной ерунды начать смеяться. Люблю, когда ты пишешь мне своё «добли утло❤️», люблю знать, как у тебя дела, и люблю эти обычные моменты, которые почему-то становятся самыми дорогими.</p>
+          <p>Я хочу, чтобы рядом со мной ты могла быть собой. Без необходимости притворяться сильнее, веселее или удобнее. Если день не задался — я выслушаю. Если грустно — буду рядом. Если всё хорошо — буду радоваться вместе с тобой. А если просто захочется обнимашек, ну ты знаешь, я тут.</p>
+          <p>И да, я всё ещё тот самый, который хочет горы свернуть ради своей кисы. Иногда могу писать как дурачок, иногда не сразу нахожу правильные слова, но чувства у меня настоящие. Я хочу показывать тебе любовь не только сообщениями, а тем, как отношусь к тебе каждый день.</p>
+          <p class="letter-last">Люблю тебя сильно-сильно, тигрица моя. Мяу ❤️</p>
+          <div class="paper-signature">твой Вань <span>♥</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="secret-section section">
+      <div class="secret-card reveal">
+        <span class="secret-spark">✧</span>
+        <div class="section-kicker">06 / ПОСЛЕДНИЙ МАЛЕНЬКИЙ СЮРПРИЗ</div>
+        <h2>Если тебе вдруг<br><em>нужно напоминание...</em></h2>
+        <p>Нажми. Тут кое-что, что я хочу, чтобы ты помнила.</p>
+        <button class="button button-primary" id="secretButton">ну давай, открывай ♡</button>
+        <div class="secret-message" id="secretMessage" aria-live="polite">
+          <span class="secret-big-heart">♥</span>
+          <h3>Ты любима. Очень.</h3>
+          <p>Не только когда всё идеально. Не только когда ты улыбаешься. Просто потому что ты — это ты. Иди сюда, киса моя. Обниму. ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section section" id="final">
+      <div class="final-stars">✦　·　♡　·　✦</div>
+      <div class="section-kicker">И НАПОСЛЕДОК</div>
+      <h2>Из всех людей<br><em>я рад, что есть ты.</em></h2>
+      <p>Люблю тебя, солнышко. Сильно-сильно. Иди сюда, обниму ❤️</p>
+      <button class="heart-button" id="heartButton" aria-label="Отправить сердечки">♥</button>
+      <div class="final-hint">нажми на сердечко</div>
+      <a href="#home" class="back-top">в начало ↑</a>
+      <footer>сделано с любовью и немножко с «мяу» <span>♥</span></footer>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
